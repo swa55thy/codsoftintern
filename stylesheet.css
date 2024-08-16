@@ -1,0 +1,85 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Centering the content */
+center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header Styles */
+header {
+    background-color: #206e98;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    border-bottom: 5px solid #333;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header h4 {
+    margin: 10px 0 0 0;
+    font-weight: normal;
+}
+
+/* Section Styles */
+section {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    width: 80%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+section h2 {
+    color: #2085b8;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+section h4 {
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+/* Image Styles */
+img {
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Link Styles */
+a {
+    color: #2086a0;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
