@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="landing.css"> <!-- Correct placement for the CSS link -->
+</head>
+<body>
+    <header>
+        <h1>Welcome to KIM'S Hotel</h1>
+        <nav>
+            <a href="landing.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="rooms.html">Rooms</a>
+            <a href="bookings.html">Bookings</a>
+            <a href="feedback.html">Feedback</a>
+            <a href="submit.html">Submit</a>
+        </nav>
+    </header>
+
+    <section id="feedback" class="section">
+        
+
+        <form action="submit.html" method="post">
+            <div>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="feedback">Your Feedback</label>
+                <textarea id="feedback" name="feedback" rows="4" required></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@kimshotel.com | Phone: +1 234 567 890</p>
+        <p>&copy; 2024 Kim's Hotel. All rights reserved.</p>
+    </footer>
+</body>
+</html>
